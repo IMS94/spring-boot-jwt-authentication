@@ -12,6 +12,8 @@ This approach is ideal to be used as the
 **backend for a single page application (SPA)** written using a frontend framework like
 ReactJS, Angular, etc...
 
+**Note:** A sample implementation of a ReactJs app is included in the `frontend` directory.
+
 ## Solution Overview
 
 ![Solution Overview](https://github.com/IMS94/spring-boot-jwt-authentication/blob/master/solution_overview.png?raw=true "Solution Overview")
@@ -20,6 +22,10 @@ ReactJS, Angular, etc...
 
 - Use `mvn clean install` in the project root directory to build the project. 
 - Run the main class, `com.example.springboot.jwt.JwtApplication` to start the application.
+
+### Sample ReactJs App
+
+- A sample ReactJs app to consume the created API is located in `frontend` directory. Simply run `npm install` and `npm start` within that to start the app.
 
 ## Endpoints
 
