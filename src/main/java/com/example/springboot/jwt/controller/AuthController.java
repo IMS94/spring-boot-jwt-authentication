@@ -57,7 +57,7 @@ public class AuthController {
 			
 			String authorities = userDetails.getAuthorities().stream()
 					.map(GrantedAuthority::getAuthority)
-					.collect(Collectors.joining(","));
+					.collect(Collectors.joining(" "));
 			claims.put("authorities", authorities);
 			claims.put("userId", String.valueOf(1));
 			
