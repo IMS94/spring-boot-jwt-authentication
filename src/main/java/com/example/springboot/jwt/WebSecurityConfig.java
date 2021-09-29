@@ -39,7 +39,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 								.anyRequest()
 								.authenticated()
 				)
-				.exceptionHandling().disable()
 				.oauth2ResourceServer(OAuth2ResourceServerConfigurer::jwt);
 	}
 	
