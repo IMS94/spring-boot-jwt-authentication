@@ -20,7 +20,7 @@ ReactJS, Angular, etc...
 
 ## Getting Started
 
-- Use `mvn clean install` in the project root directory to build the project. 
+- Use `./mvnw clean install` in the project root directory to build the project. 
 - Run the main class, `com.example.springboot.jwt.JwtApplication` to start the application.
 
 ### Sample ReactJs App
